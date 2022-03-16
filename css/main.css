@@ -1,4 +1,57 @@
+body {
+    margin: 0;
+}
+
+p {
+  margin: 0;  
+}
+
 .container {
-    width: 1170;
+    width: 1400px;
     margin: 0 auto;
+}
+
+span {
+    color: #ff0036;
+}
+
+.our-clients {
+    background-image: url(../img/our_clints/bg.png);
+    height: 652px;
+}
+
+.our-clients .title {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+}
+
+.our-clients .description {
+    color: #747373;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.our-clients h2 {
+    padding-top: 94px;
+}
+
+.section-content {
+    display: flex;
+    padding-top: 95px;
+    padding-left: 115px;
+    padding-right: 115px;
+}
+
+.section-content section {
+    flex: 570px;
+}
+
+.clients-logos-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section-content h3 {
+    text-transform: uppercase;
 }
