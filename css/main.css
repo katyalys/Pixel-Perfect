@@ -138,16 +138,76 @@ li {
 .v-about-entry {
     font-weight: bold;
     text-align: center;
-    color: #505050;
 }
 
 .v-about-title {
     font-family: 'Raleway';
     font-size: 30px;
     margin: 0;
+    color: #262626;
 }
 
 .v-about-description {
     font-family: 'Lato';
+    margin-top: 38px;
+    margin-bottom: 0;
+    color: #505050;
+}
+
+.v-about-main {
+    margin-top: 94px;
+    margin-bottom: 93px;
+    display: flex;
+    justify-content: space-between;
+    color: #505050;
+}
+
+.v-about-main-div {
+    width: 570px;
+}
+
+.v-about-main-div p {
+    font-family: 'Lato';
+    font-weight: normal;
+    line-height: 22px;
+    font-size: 16px;
+    text-align: justify;
+    margin: 0;
+}
+
+.v-about-main-info {
     margin-top: 40px;
+}
+
+.v-about-main-info div {
+    display: flex;
+    height: 45px;
+    border-color: #e7e7e7;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 9px;
+}
+
+.v-about-main-info div div {
+    width: 60px;
+    border-color: #e7e7e7;
+    border-style: solid;
+    border-width: 0px 1px 0px 0px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.v-about-main-info div div img {
+    width: 18px;
+    height: 18px;
+}
+
+.v-about-main-info p {
+    color: #262626;
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 28px;
+    line-height: 45px;
 }
