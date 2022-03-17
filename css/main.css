@@ -14,25 +14,30 @@ li {
     margin: 0 auto;
 }
 
-.header {
-    background: url('../img/MainSlide.png') no-repeat center top / cover;
+.v-max-width {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.v-header {
+    background: url('../img/Header-Background.png') no-repeat center top / cover;
     height: 700px;
-    color: #ffffff
+    color: #ffffff;
 }
 
 
 /* Navigation panel */
 
-.navigation-inner {
+.v-navigation-inner {
     background: rgba(0, 0, 0, 0.5);
     height: 70px;
 }
 
-.navigation-content {
+.v-navigation-content {
     display: flex;
 }
 
-.menu {
+.v-menu {
     display: flex;
     padding: 0;
     height: 67px;
@@ -41,12 +46,12 @@ li {
     margin-left: 64px;
 }
 
-.menu li {
+.v-menu li {
     margin-left: 34px;
     height: min-content;
 }
 
-.menu li a {
+.v-menu li a {
     text-transform: uppercase;
     font-size: 18;
     font-family: 'Raleway';
@@ -55,27 +60,53 @@ li {
     text-decoration: none;
 }
 
-.slider-left {
-    margin-left: 36px;
+.v-carousel {
+    margin-top: 185px;
+    display: flex;
+    align-items: center;
 }
 
-.slider-right {}
+.v-slider-header {
+    width: 17px;
+    height: 28px;
+    border: none;
+}
 
-.slider-content {
-    margin-top: 185px;
+.v-slider-left {
+    background: url("../img/Slider-Left.png");
+}
+
+.v-slider-left:hover {
+    background: url("../img/Slider-Left-active.png");
+}
+
+.v-slider-right {
+    background: url("../img/Slider-Right.png");
+}
+
+.v-slider-right:hover {
+    background: url("../img/Slider-Right-active.png");
+}
+
+.v-carousel-content {
     text-align: center;
 }
 
-.slider-content h1 {
+.v-carousel-content h1 {
+    font-family: 'Raleway';
+    font-weight: bold;
     font-size: 30px;
 }
 
-.slider-content p {
+.v-carousel-content p {
+    font-family: 'Lato';
+    font-weight: normal;
+    line-height: 22px;
     font-size: 16px;
     margin: 36px 70px
 }
 
-.slider-content button {
+.v-carousel-content button {
     display: inline-flex;
     width: 170px;
     height: 50px;
@@ -84,12 +115,14 @@ li {
     background: #131313;
     color: #ffffff;
     text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 500;
     font-size: 20px;
     align-items: center;
     justify-content: center;
 }
 
-.slider-content button:hover {
+.v-carousel-content button:hover {
     background: #ff0036;
 }
 
