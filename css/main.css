@@ -128,3 +128,26 @@ li {
 
 
 /* End navigation panel */
+
+.v-about {
+    height: 1176px;
+    padding-top: 95px;
+    background-color: #ffffff;
+}
+
+.v-about-entry {
+    font-weight: bold;
+    text-align: center;
+    color: #505050;
+}
+
+.v-about-title {
+    font-family: 'Raleway';
+    font-size: 30px;
+    margin: 0;
+}
+
+.v-about-description {
+    font-family: 'Lato';
+    margin-top: 40px;
+}
