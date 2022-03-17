@@ -35,35 +35,60 @@ li {
 
 .v-navigation-content {
     display: flex;
+    justify-content: space-between;
 }
 
 .v-menu {
     display: flex;
     padding: 0;
-    height: 67px;
+    height: 70px;
     align-items: center;
-    margin-top: 3px;
-    margin-left: 64px;
+    margin-top: 0px;
+    margin-bottom: 0;
 }
 
 .v-menu li {
-    margin-left: 34px;
-    height: min-content;
+    padding-left: 17px;
+}
+
+.v-menu li:not(:last-child) {
+    padding-right: 17px;
+}
+
+.v-menu li:hover>a {
+    color: #ffffff;
+}
+
+.v-menu li:hover::before {
+    content: '';
+    display: block;
+    width: 27px;
+    height: 3px;
+    background-color: #ff0036;
+    margin: auto auto 22px;
+}
+
+.v-menu li:hover::after {
+    content: '';
+    display: block;
+    width: 27px;
+    height: 3px;
+    background-color: #ff0036;
+    margin: 22px auto auto;
 }
 
 .v-menu li a {
-    text-transform: uppercase;
-    font-size: 18;
+    color: #a4a4a4;
+    font-size: 18px;
     font-family: 'Raleway';
-    font-weight: normal;
-    color: #ffffff;
+    font-weight: 400;
     text-decoration: none;
 }
 
 .v-carousel {
-    margin-top: 185px;
+    margin-top: 180px;
     display: flex;
-    align-items: center;
+    justify-content: center;
 }
 
 .v-slider-header {
@@ -90,36 +115,42 @@ li {
 
 .v-carousel-content {
     text-align: center;
+    width: 1030px;
 }
 
 .v-carousel-content h1 {
     font-family: 'Raleway';
     font-weight: bold;
     font-size: 30px;
+    margin: 0;
 }
 
 .v-carousel-content p {
     font-family: 'Lato';
     font-weight: normal;
-    line-height: 22px;
     font-size: 16px;
-    margin: 36px 70px
+    margin-top: 40px;
+    margin-bottom: 0;
+    line-height: 22px;
 }
 
-.v-carousel-content button {
-    display: inline-flex;
+.v-carousel-content-buttons {
+    margin: 0 auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+}
+
+.v-carousel-content-buttons button {
+    margin-top: 46px;
     width: 170px;
     height: 50px;
     border-width: 0px;
-    margin: 0 30px;
     background: #131313;
     color: #ffffff;
-    text-transform: uppercase;
     font-family: 'Raleway';
     font-weight: 500;
     font-size: 20px;
-    align-items: center;
-    justify-content: center;
 }
 
 .v-carousel-content button:hover {
