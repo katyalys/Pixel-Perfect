@@ -3,11 +3,15 @@ body {
 }
 
 p {
-  margin: 0;  
+    margin: 0;  
+}
+
+.s-slide {
+    width: 1400px;
 }
 
 .container {
-    width: 1400px;
+    width: 1170px;
     margin: 0 auto;
 }
 
@@ -15,43 +19,126 @@ span {
     color: #ff0036;
 }
 
-.our-clients {
+.s-our-clients {
     background-image: url(../img/our_clints/bg.png);
     height: 652px;
 }
 
-.our-clients .title {
+.s-our-clients .s-title {
     color: #ffffff;
     text-align: center;
     margin: 0;
+    font: bold 30px/80% 'Raleway';
 }
 
-.our-clients .description {
+.s-clients-words .s-title {
+    font: 500 20px/80% 'Raleway';
+    padding-left: 185px;
+    padding-right: 185px;
+    text-align: left;
+}
+
+.s-our-clients .s-description {
     color: #747373;
     padding-top: 50px;
+    padding-bottom: 5px;
     text-align: center;
+    font: bold 16px/80% 'Lato';
 }
 
-.our-clients h2 {
+.s-clients-words .s-description {
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.s-clients-words .s-title {
+    font-weight: 400;
+}
+
+.s-our-clients h2 {
     padding-top: 94px;
 }
 
-.section-content {
+.s-section-content {
     display: flex;
     padding-top: 95px;
-    padding-left: 115px;
-    padding-right: 115px;
+    /*padding-left: 115px;
+    padding-right: 115px;*/
+    justify-content: space-between;
 }
 
-.section-content section {
-    flex: 570px;
+.s-section-content section {
+    height: 270px;
+    width: 570px;
 }
 
-.clients-logos-section {
+.s-clients-logos {
     display: flex;
     flex-wrap: wrap;
+    
+    justify-content: space-between;
 }
 
-.section-content h3 {
+.s-section-content h3 {
     text-transform: uppercase;
+}
+
+.s-logo-container {
+    height: 115px;
+    width: 270px;
+    background-image: url(../files/our_clints/logo_bg.png);
+    text-align: center;
+}
+
+.s-logo-container:nth-of-type(1), .s-logo-container:nth-of-type(2) {
+    margin-bottom: 40px;
+} 
+
+.s-logo {
+    font: 400 24.16px/29.6px 'MgOpen Modata', sans-serif;
+    vertical-align: middle;
+    padding-block: 45px;
+}
+
+.s-logo img {
+    vertical-align: middle;
+    position: relative;
+}
+
+.graphicriver img {
+    vertical-align: top;
+}
+
+.codecanyon img {
+    left: 7px;
+}
+
+.s-client-container {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.s-client-name {
+    color: #ff0036;
+    text-transform: uppercase;
+    font: bold 16px/80% 'Raleway';
+    margin-top: 15px;
+}
+
+.s-clients-scroller {
+    display: flex;
+    justify-content: space-between;
+    width: 34px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.s-scroll-box {
+    width: 8px;
+    height: 8px;
+    background-color: #e0e0e0;
+}
+
+.s-scroll-box:nth-child(2) {
+    background-color: #ff0036;
 }
