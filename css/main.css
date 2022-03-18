@@ -336,3 +336,12 @@ li {
 .v-portfolio-menu p:hover {
     color: #ff0036;
 }
+
+.v-portfolio-main {
+    margin-top: 96px;
+}
+
+.v-portfolio-contentLine {
+    display: flex;
+    height: 350px;
+}
