@@ -302,7 +302,7 @@ li {
 }
 
 .v-portfolio {
-    height: 1076px;
+    height: 980px;
     padding-top: 96px;
     background-color: #262626;
 }
@@ -342,6 +342,44 @@ li {
 }
 
 .v-portfolio-contentLine {
+    color: #ffffff;
+    font-size: 24px;
     display: flex;
     height: 350px;
+}
+
+.v-portfolio-contentLine i {
+    margin-top: 157px;
+}
+
+.v-portfolio-contentLine p {
+    font-family: 'Lato';
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.v-portfolio-contentLine .v-bigElement {
+    width: 400px;
+    height: 350px;
+}
+
+.v-portfolio-contentLine .v-smallElement {
+    width: 300px;
+    height: 350px;
+}
+
+.v-portfolio-contentLine div:hover .v-overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.v-portfolio-contentLine .v-overlay {
+    opacity: 0;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
