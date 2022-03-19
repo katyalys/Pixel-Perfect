@@ -89,7 +89,7 @@ li {
 /* End navigation panel */
 
 .v-carousel {
-    margin-top: 180px;
+    margin-top: 179px;
     display: flex;
     justify-content: center;
 }
@@ -141,14 +141,14 @@ li {
 }
 
 .v-carousel-content-buttons {
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     width: 370px;
+    margin-top: 47px;
 }
 
 .v-carousel-content-buttons button {
-    margin-top: 46px;
     width: 170px;
     height: 50px;
     border-width: 0px;
@@ -164,8 +164,8 @@ li {
 }
 
 .v-about {
-    height: 1081px;
-    padding-top: 95px;
+    height: 1082px;
+    padding-top: 94px;
     background-color: #ffffff;
 }
 
@@ -183,14 +183,15 @@ li {
 
 .v-about-description {
     font-family: 'Lato';
+    font-size: 16px;
     margin-top: 38px;
     margin-bottom: 0;
     color: #505050;
 }
 
 .v-about-main {
-    margin-top: 94px;
-    margin-bottom: 93px;
+    margin-top: 95px;
+    margin-bottom: 92px;
     display: flex;
     justify-content: space-between;
     color: #505050;
