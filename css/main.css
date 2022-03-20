@@ -234,3 +234,13 @@ span {
     font: 500 20px/50px 'Raleway';
     color: #ffffff;
 }
+
+.s-features li:hover, .s-features .s-button:hover {
+    color: #ffffff;
+    background-color: #ff0036;
+}
+
+.s-features li:hover .s-list-marker {
+    background-image: url(../img/white_hexagon_bg.png);
+    color: #ff0036;
+}
