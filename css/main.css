@@ -1,12 +1,20 @@
 body {
     margin: 0;
     padding: 0;
-    color: 000;
 }
 
 ul,
 li {
     display: block;
+}
+
+span {
+    color: #ff0036;
+}
+
+header footer section {
+    margin: 0 auto;
+    width: 1400px;
 }
 
 .container {
@@ -24,9 +32,6 @@ li {
     height: 700px;
     color: #ffffff;
 }
-
-
-/* Navigation panel */
 
 .v-navigation-inner {
     background: rgba(0, 0, 0, 0.5);
@@ -84,9 +89,6 @@ li {
     font-weight: 400;
     text-decoration: none;
 }
-
-
-/* End navigation panel */
 
 .v-carousel {
     margin-top: 179px;
