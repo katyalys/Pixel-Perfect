@@ -22,6 +22,11 @@ header, footer, section {
     width: 1400px;
 }
 
+.s-slide * {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -402,12 +407,6 @@ header, footer, section {
 
 /*-------------------------Sergey-------------------*/
 
-.s-slide,
-.s-slide * {
-  margin: 0;
-  padding: 0;
-}
-
 .s-slide {
   position: relative;
 }
@@ -541,7 +540,7 @@ header, footer, section {
 }
 
 .s-slide.s-features {
-  height: 985px;
+  height: 986 px;
   background-color: #ffffff;
 }
 
