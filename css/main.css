@@ -540,7 +540,7 @@ header, footer, section {
 }
 
 .s-slide.s-features {
-  height: 986 px;
+  height: 986px;
   background-color: #ffffff;
 }
 
@@ -897,10 +897,12 @@ i.fa-code{
 }
 
 .text h3{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato';
     font-size: 16px;
     color: #a4a4a4;
     background-color: #343434;
+    text-align: justify;
+    line-height: 22px;
     padding: 29px;
     padding-left: 37px;
     width: 500px;
@@ -908,7 +910,6 @@ i.fa-code{
     font-weight: 400;
     margin-top: 25px;
     margin-left: 0px;
-    padding-bottom: 0px;
 }
 
 i.fa-html5{
@@ -1169,7 +1170,7 @@ i.fa-laptop{
   margin-right: 0px;
 }
 
-.fa-twitter {
+.k-fa-twitter {
   background-color:  #272727;
   padding-top: 98px;
   padding-left: 320px;
@@ -1181,7 +1182,7 @@ i.fa-laptop{
 }
 
 .k-last-container div{
-  height: 295px;
+  height: 294px;
   background: #272727;
   margin-top: 0px;
   margin-left:  0px;
@@ -1206,10 +1207,6 @@ i.fa-laptop{
   padding-left: 0px;
 
   max-width: 650px;
-}
-
-.base_container2 {
-    padding-bottom: 100px;
 }
 
 .end_hexagon {
