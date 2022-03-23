@@ -1,3 +1,8 @@
+@font-face{
+    font-family: MyriadPro regular;
+    src: url(../fonts/MYRIADPRO-REGULAR.OTF);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -22,6 +27,7 @@ header, footer, section {
     margin: 0 auto;
 }
 
+/*-------------------------Vadim-------------------*/
 .v-max-width {
     width: 1400px;
     margin: 0 auto;
@@ -394,6 +400,8 @@ header, footer, section {
     text-align: center;
 }
 
+/*-------------------------Kate-------------------*/
+
 .header_logo1 h2{
     font-family: 'Raleway', sans-serif;
     background-color: #272727;
@@ -519,7 +527,7 @@ i.fa-code{
     height: 65px;
     font-weight: 400;
     margin-top: 25px;
-    margin-left: 0px
+    margin-left: 0px;
     padding-bottom: 0px;
 }
 
@@ -711,7 +719,6 @@ i.fa-laptop{
 
 .base_container2{
     display: flex;
-    diplay: inline-block;
     margin-left: 115px;
     margin-bottom: 100px;
     margin-right: 115px;
@@ -828,4 +835,305 @@ i.fa-laptop{
 .end_hexagon {
     display: block;
     margin:  -9px auto;
+}
+
+/*-------------------------Pavel-------------------*/
+
+.p-container {
+    width: 970px;
+    margin: 0 auto;
+}
+
+.p-blog-heading {
+    margin-top: 96px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.p-blog-heading h1{
+    font-family: 'Raleway';
+    font-size: 30px;
+    color: #262626;
+    margin: 0;
+}
+
+.p-blog-heading  p {
+    margin-top: 42px;
+    margin-bottom: 0;
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 22px;
+    color: #505050; 
+
+}
+
+.p-blog-feed {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 95px;
+}
+
+.p-blog-element {
+    display:  flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.p-blog-element img {
+    width: 370px;
+    height: 200px;    
+}
+
+.p-blog-element .p-info {
+    width:  570px;
+}
+
+.p-blog-element .p-info h2 {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    color: #2e2e2e;
+    margin: 0;
+}
+
+.p-blog-element .p-info .p-stat {
+    display: flex;
+    color: #a2a2a2;
+    justify-content: space-between;
+    width: 191px;
+    margin-top: 19px;
+}
+
+.p-blog-element .p-info .p-stat p {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+}
+
+.p-blog-element .p-info .p-stat p i {
+    margin-right: 6px;
+}
+
+.p-blog-element .p-info .p-content {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #505050;
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.p-blog-element .p-info button {
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    background: #262626;
+    width: 120px;
+    height: 40px;
+    border-width: 0;
+    margin-top: 25px;
+}
+
+.p-blog-element .p-info button:hover {
+    background: #ff0036;
+}
+
+.p-danul {
+    color: #a2a2a2;
+    text-align: center;
+    margin: auto;
+}
+
+.p-danul:hover {
+    color: #ff0036;
+}
+
+/*-------------------------------------------------*/
+
+.p-follow-section {
+    background-image: url(../img/follow-creativia-bg_.png); 
+    padding-top: 96px;
+    height: 278px;
+    padding-bottom: 9px;
+}
+
+.p-follow-content {
+    height: 198px;
+    margin: 0 auto;
+
+}
+
+.p-follow-content h1 {
+    font-family: 'Raleway';
+    font-size: 30px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+}
+
+.p-follow-content .p-links {
+    height: 122px;
+    width: 450px;
+    margin: 43px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.p-follow-content .p-links .p-link div{
+    width: 76px;
+    height: 68px;
+    color: #ff0036;
+    display: flex;
+    justify-content: center;
+    background: url(../img/hex-follow.png);    
+}
+
+.p-follow-content .p-links .p-link div:hover {
+    background: url(../img/hex-follow-active.png);
+    color: #fff;
+}
+
+.p-follow-content .p-links .p-link i {
+    margin: auto;
+    font-size: 22px;
+
+}
+
+.p-follow-content .p-links .p-link p {
+    color: #fff;
+    font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    text-align: center;
+    margin: 38px 0 0 0 ;
+} 
+
+.p-contact-heading {
+    margin-top: 96px;
+    font-weight: bold;
+    text-align: center;  
+}
+
+.p-contact-heading h1 {
+    font-family: 'Raleway';
+    font-size: 30px;
+    color: #262626;
+    margin: 0;
+}
+
+.p-contact-heading p {
+    margin-top: 42px;
+    margin-bottom: 0;
+    font-family: 'Lato';
+    font-size: 16px;
+    line-height: 22px;
+    color: #505050; 
+}
+
+.p-contact-map {
+    background: url(../img/map.png);
+    height: 575px;
+    margin-top: 96px;
+}
+
+.p-contact-map .p-info-block {
+    position: relative;
+    left: 250px;
+    top: -224px;
+    height: 195px;
+    width: 277px;
+    background: url(../img/find-contacts.png);
+    padding-top: 31px;
+    padding-left: 23px;
+
+}
+
+.p-contact-map .p-feedback-form {
+    position: relative;
+    left: 681px;
+    top: 100px;
+    height: 427px;
+    width: 384px;
+    background: #fff;
+    padding-top: 48px;
+    padding-left: 38px;
+    padding-right: 48px;
+}
+
+.p-contact-map .p-info-block p {
+    font-size: 16px;
+    line-height: 25px;
+    font-family: "MyriadPro regular";
+    color: #fff;
+    margin: 0;
+}
+
+.p-contact-map .p-feedback-form h2 {
+    font-family: 'Raleway';
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0 0 46px 0;
+}
+
+.p-contact-map .p-feedback-form input {
+    width: 378px;
+    height: 30px;
+    border-width: 1px;
+    margin-bottom: 17px;
+    border-color: #e7e7e7;
+    border-style: solid;
+}
+
+.p-contact-map .p-feedback-form textarea {
+    width: 378px; 
+    height:82px;
+    border-width: 1px;
+    border-color: #e7e7e7;
+    border-style: solid;
+    margin-top: 4px;
+    resize: none;
+}
+
+.p-contact-map .p-feedback-form .p-submit {
+    color: #fff;
+    background: #262626;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    float: right;
+    margin-top: 27px;
+    margin-bottom: 0;
+}
+.p-contact-map .p-feedback-form .p-submit:hover {
+    background: #ff0036;
+}
+
+footer {
+    background: #262626;
+    height: 81px;
+
+}
+
+footer img {
+    margin-top: 30px;
+    margin-left: 641px;
+}
+
+footer span {
+    color: #8e8e8e;
+    float: right;
+    margin-top: 30px;
+    font-size: 16px;
+    font-family: 'MyriadPro regular';
+    margin-right: 45px ;
 }
