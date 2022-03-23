@@ -1442,8 +1442,9 @@ i.fa-laptop{
     width: 384px;
     background: #fff;
     padding-top: 48px;
-    padding-left: 38px;
+    padding-left: 44px;
     padding-right: 48px;
+    box-shadow: 0 0 3px 0px rgb(221 221 221);
 }
 
 .p-contact-map .p-info-block p {
@@ -1468,6 +1469,10 @@ i.fa-laptop{
     margin-bottom: 17px;
     border-color: #e7e7e7;
     border-style: solid;
+    padding-left: 14px;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .p-contact-map .p-feedback-form textarea {
@@ -1489,6 +1494,7 @@ i.fa-laptop{
     float: right;
     margin-top: 27px;
     margin-bottom: 0;
+    padding: 0;
 }
 .p-contact-map .p-feedback-form .p-submit:hover {
     background: #ff0036;
