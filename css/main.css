@@ -204,7 +204,7 @@ header, footer, section {
 
 .v-about-main {
     margin-top: 95px;
-    margin-bottom: 92px;
+    margin-bottom: 96px;
     display: flex;
     justify-content: space-between;
     color: #505050;
@@ -236,19 +236,14 @@ header, footer, section {
     margin-top: 9px;
 }
 
-.v-about-main-info div div {
-    width: 60px;
+.v-about-main-info div img {
+    width: 18px;
+    height: 18px;
+    display: block;
+    padding: 13.5px 21px;
     border-color: #e7e7e7;
     border-style: solid;
     border-width: 0px 1px 0px 0px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0px;
-}
-
-.v-about-main-info div div img {
-    width: 18px;
-    height: 18px;
 }
 
 .v-about-main-info p {
@@ -258,6 +253,11 @@ header, footer, section {
     font-size: 20px;
     margin-left: 28px;
     line-height: 45px;
+}
+
+.v-about .v-separator{
+  display: block;
+  margin: 0 auto;
 }
 
 .v-about-bottom {
@@ -295,7 +295,7 @@ header, footer, section {
     text-align: center;
 }
 
-.v-about-bottom-element h2 {
+.v-about-bottom-element h3 {
     font-family: 'Raleway';
     font-weight: 500;
     font-size: 20px;
@@ -326,7 +326,7 @@ header, footer, section {
     font-weight: 900;
 }
 
-.v-portfolio-menu h1 {
+.v-portfolio-menu h2 {
     color: #ffffff;
     font-family: 'Raleway';
     font-size: 30px;
@@ -392,9 +392,36 @@ header, footer, section {
     height: 350px;
 }
 
-.v-portfolio-contentLine div:hover .v-overlay {
-    opacity: 1;
-    cursor: pointer;
+.v-portfolio-contentLine .v-moneyElement {
+    background: url(../img/portfolio-money.png);
+}
+
+.v-portfolio-contentLine .v-bankElement {
+    background: url(../img/portfolio-bank.png);
+}
+
+.v-portfolio-contentLine .v-flowerElement {
+   background: url(../img/portfolio-moneyFlower.png);
+}
+
+.v-portfolio-contentLine .v-cardsElement {
+    background: url(../img/portfolio-cards.png);
+}
+
+.v-portfolio-contentLine .v-calculatorElement {
+    background: url(../img/portfolio-calculator.png);
+}
+
+.v-portfolio-contentLine .v-exchangeElement {
+   background: url(../img/portfolio-exchange.png);
+}
+
+.v-portfolio-contentLine .v-pocketElement {
+   background: url(../img/portfolio-pocketMoney.png);
+}
+
+.v-portfolio-contentLine .v-moneyCheckElement {
+    background: url(../img/portfolio-moneyCheck.png);
 }
 
 .v-portfolio-contentLine .v-overlay {
@@ -404,6 +431,13 @@ header, footer, section {
     flex-direction: column;
     text-align: center;
 }
+
+.v-portfolio-contentLine div:hover .v-overlay {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
 
 /*-------------------------Sergey-------------------*/
 
