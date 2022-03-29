@@ -400,3 +400,11 @@ span {
   font: 400 16px/18px "Lato";
   color: #505050;
 }
+
+.s-link-container:hover {
+  cursor: pointer;
+}
+
+.s-worker:hover img {
+  display: none;
+} 
