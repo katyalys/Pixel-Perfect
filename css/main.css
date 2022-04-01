@@ -1326,17 +1326,21 @@ i.fa-laptop{
   justify-content: space-between;
   width: 191px;
   margin-top: 19px;
-}
-
-.p-blog-element .p-info .p-stat i {
   font-family: "Lato";
   font-weight: 400;
   font-size: 12px;
-  margin: 0;
+  color: #a2a2a2;
 }
 
-.p-blog-element .p-info .p-stat i span {
-  margin-right: 6px;
+
+.p-blog-element .p-info .p-stat span {
+  color: #a2a2a2;
+  margin: 0 16px 0 7px ;
+
+}
+
+.p-blog-element .p-info .p-stat i {
+  margin-top: 2px;
   color: #a2a2a2 ;
 }
 
