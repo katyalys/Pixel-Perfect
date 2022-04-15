@@ -1,0 +1,50 @@
+.slick-track {
+    will-change: transform;
+}
+
+.slick-list {
+    will-change: transform;
+}
+
+[type="button"] {
+    position: absolute;
+    top: 138px;
+    z-index: 10;
+    width: 70px;
+    height: 70px;
+    border: 0;
+    text-indent: -9999px;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    opacity: 0.9;
+    transform: translateY(-50%);
+    transition: all 0.25s ease;
+}
+
+[type="button"]:hover {
+    opacity: 1;
+}
+
+.slick-next {
+    right: 0;
+    background-image: url(../img/Slider-Right.png);
+}
+
+.slick-next:hover {
+    background-image: url(../img/Slider-Right-active.png);
+}
+
+.slick-prev {
+    left: 8px;
+    background-image: url(../img/Slider-Left.png);
+}
+
+.slick-prev:hover {
+    background-image: url(../img/Slider-Left-active.png);
+}
+
+.do-transition {
+    animation: motion-blur 0.1s linear forwards, motion-blur 0.4s linear reverse forwards 0.1s;
+}
