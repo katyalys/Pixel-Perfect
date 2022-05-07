@@ -1,0 +1,88 @@
+.k-modal {}
+
+.k-modal.open .k-modal-overlay,
+.k-modal.open .k-modal-window {
+	opacity: 1;
+	z-index: 1000;  
+}
+
+.k-modal-window, .k-modal-overlay {
+	opacity: 0; 
+	z-index: -1; 
+}
+
+.k-modal-overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.k-modal-window {
+	width: 300px;
+	border-radius: 10px;
+	background: #fff;
+	margin: 200px auto;  
+	padding: 20px;
+}
+
+.k-modal-window p {
+	font-family: 'Raleway', sans-serif;
+    font-weight: 500; 
+	font-size: 20px; 
+}
+
+.k-modal-header {
+	font-family: 'Raleway', sans-serif;
+    font-weight: 500; 
+	font-size: 20px; 
+	padding: 5px 10px;
+	display: flex;
+	justify-content: space-between; 
+}
+
+.k-modal-close {
+	cursor: pointer; 
+}
+
+.k-modal-body {
+	padding: 10px;
+}
+
+.k-modal-body input {
+	font-family: 'Lato';
+	font-weight: 400;
+	font-size: 16px; 
+	width: 250px; 
+	margin: 0 0 15px 0;
+}
+
+.k-modal-body input:last-child {
+	margin: 0; 
+}
+
+.k-modal-footer{
+	display: flex;
+	justify-content: center; 
+	padding: 5px 10px;
+}
+
+.k-modal-footer button {
+	font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+	color: #fff;	
+	width: 100px;
+	font-size: 20px; 
+	border: none;
+	background: #262626;
+}
+
+.k-modal-footer .k-disable-btn {
+	background: #606060;
+}
+
+.k-modal-footer .k-active-btn:hover {
+	background: #ff0036;
+}
